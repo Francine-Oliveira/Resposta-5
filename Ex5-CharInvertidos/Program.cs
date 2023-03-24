@@ -5,7 +5,11 @@ class Program
     {
         string invertida = string.Empty;
         int i;
+        string str = new('=', 21);
 
+        Console.WriteLine(str);
+        Console.WriteLine("  Palavra Invertida ");
+        Console.WriteLine(str);
         Console.Write("Digite uma palavra: ");
         string palavra = Console.ReadLine();
 
